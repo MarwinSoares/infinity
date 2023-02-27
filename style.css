@@ -1,0 +1,139 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@font-face {
+    font-family:'docu' ;
+    src: url('./fontes/Roboto-Bold.ttf') format('opentype');
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body#one{
+    background-color: rgba(255, 255, 255, 0);
+   background-image: url("imagens/5C5CBEA9-8A8B-43DD-B58A-6F9B66F16FF8.png");
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: initial;
+   position: relative; 
+}
+header{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 15px;
+    margin: 10px;
+    
+}
+nav#inicio{
+    background-color: rgba(255, 255, 255, 0);
+    padding-left: 200px;
+    margin: auto;
+    position: relative;
+    transform: translate(-141px, -49px);
+
+}
+a.home{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+    font-weight: normal;
+    font-size: 29px;
+    text-decoration: none;
+    color: blueviolet;
+
+}
+a.home:hover{
+    text-decoration: none;
+    color: rgb(95, 0, 184);
+
+}
+img#logo{
+    position: absolute;
+    
+}
+
+div#home{
+    width: 650px;
+    height: auto;
+    padding: 43px;
+    margin: 0px;
+    margin-bottom: 100px;
+    color: blueviolet;
+    position: relative;
+    padding-left: 150px;
+    
+}
+
+p.no{
+    color: rgb(100, 99, 99);
+    font-size: 1.5em;
+    text-align: justify;
+    font-family: 'docu','cursive';
+}
+h2#di{
+    color: blueviolet;
+    text-align: justify;
+    font-size: 6.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+h2#id{
+    color: blueviolet;
+    text-align: justify;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -39px ;
+
+}
+a#did{
+    color: white;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 48px;
+    background-color: rgb(155, 224, 56);
+    padding: 10px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-left: 60px;
+}
+a#did:hover{
+    text-decoration: none;
+    background-color: rgb(52, 236, 52);
+}
+
+h3#td{
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    padding-top: 9px ;
+    padding-bottom: 40px;
+    
+}
+img.logo{
+    display: block;
+}
+
+
+/*IndexII*/
+
+body{
+    background-color: white;
+}
+div#purple{
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+    background-color: rgb(107, 48, 166);
+    color: white;
+}
+div#white{
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+    background-color: white;
+    color: rgb(107, 48, 166);
+    
+}
