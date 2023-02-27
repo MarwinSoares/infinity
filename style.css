@@ -33,10 +33,10 @@ nav#inicio{
 
 }
 a.home{ 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 100px;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    padding-left: 90px;
     font-weight: normal;
-    font-size: 29px;
+    font-size: 25px;
     text-decoration: none;
     color: blueviolet;
 
@@ -123,17 +123,23 @@ body{
     background-color: white;
 }
 div#purple{
-    width: 600px;
-    height: 600px;
+
+    width: 683px;
+    height: 644px;
+    text-align: center;
     display: inline-block;
     background-color: rgb(107, 48, 166);
-    color: white;
+    color: #fffefe;
+    margin: auto;
+    padding-top: 19px;
 }
 div#white{
-    width: 600px;
-    height: 600px;
+    width: 653px;
+    height: 627px;
+    text-align: center;
     display: inline-block;
-    background-color: white;
-    color: rgb(107, 48, 166);
-    
+    background-color: rgb(255, 255, 255);
+    color: #9603b9;
+    margin: auto;
 }
+    
