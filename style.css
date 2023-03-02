@@ -11,23 +11,18 @@
 }
 
 body#one{
-    /*background-color: rgba(255, 255, 255, 0);
-   background-image: url("imagens/5C5CBEA9-8A8B-43DD-B58A-6F9B66F16FF8.png");
-   background-repeat: no-repeat;
-   background-position: right;
-   background-size: initial;
-   position: relative; */
+    margin: auto;
+    width: auto;
+    height: 10px;
 }
 header{
     background-color: rgba(255, 255, 255, 0);
     padding: 15px;
     margin: 10px;
-    position: ;
 }
 nav#inicio{
     background-color: rgba(255, 255, 255, 0);
     margin: auto;
-    position: ;
     transform: translate(-141px, 0px);
     text-align: end;
 
@@ -35,8 +30,8 @@ nav#inicio{
 div#nav{
     width: 1012px;
     height: auto;
-    position: ;
-    transform: translate(164px, -70px);
+   
+    transform: translate(192px, -60px);
 }
 a.home{ 
     font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
@@ -60,9 +55,9 @@ div#home{
     margin: 0px;
     margin-bottom: 100px;
     color: blueviolet;
-    position: ;
+   
     padding-left: 150px;
-    transform: translate(0px, -25px);
+    transform: translate(0px, -565px);
 }
 
 p.no{
@@ -117,9 +112,8 @@ img.logo{
     display: block;
 }
 img#img{
-    
-    margin-top: -84px;
-    margin-left: 248px;
+    margin-top: -82px;
+    margin-left: 230px;
 }
 
     
