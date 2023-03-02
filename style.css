@@ -116,7 +116,7 @@ img.logo{
     display: block;
 }
 img#img{
-    position: absolute;
+    position: relative;
     margin-top: -84px;
     margin-left: 248px;
 }
