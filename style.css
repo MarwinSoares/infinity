@@ -22,12 +22,12 @@ header{
     background-color: rgba(255, 255, 255, 0);
     padding: 15px;
     margin: 10px;
-    position: relative;
+    position: ;
 }
 nav#inicio{
     background-color: rgba(255, 255, 255, 0);
     margin: auto;
-    position: relative;
+    position: ;
     transform: translate(-141px, 0px);
     text-align: end;
 
@@ -35,7 +35,7 @@ nav#inicio{
 div#nav{
     width: 1012px;
     height: auto;
-    position: relative;
+    position: ;
     transform: translate(164px, -70px);
 }
 a.home{ 
@@ -60,7 +60,7 @@ div#home{
     margin: 0px;
     margin-bottom: 100px;
     color: blueviolet;
-    position: relative;
+    position: ;
     padding-left: 150px;
     transform: translate(0px, -25px);
 }
@@ -90,6 +90,7 @@ h2#id{
     font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
     padding-top: 9px ;
     padding-bottom: 40px; 
+    
 }
 a#did{
     color: white;
@@ -116,7 +117,7 @@ img.logo{
     display: block;
 }
 img#img{
-    position: relative;
+    
     margin-top: -84px;
     margin-left: 248px;
 }
