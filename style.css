@@ -11,32 +11,38 @@
 }
 
 body#one{
-    background-color: rgba(255, 255, 255, 0);
+    /*background-color: rgba(255, 255, 255, 0);
    background-image: url("imagens/5C5CBEA9-8A8B-43DD-B58A-6F9B66F16FF8.png");
    background-repeat: no-repeat;
    background-position: right;
    background-size: initial;
-   position: relative; 
+   position: relative; */
 }
 header{
     background-color: rgba(255, 255, 255, 0);
     padding: 15px;
     margin: 10px;
-    
+    position: relative;
 }
 nav#inicio{
     background-color: rgba(255, 255, 255, 0);
-    padding-left: 200px;
     margin: auto;
     position: relative;
-    transform: translate(-141px, -49px);
+    transform: translate(-141px, 0px);
+    text-align: end;
 
+}
+div#nav{
+    width: 1012px;
+    height: auto;
+    position: relative;
+    transform: translate(164px, -70px);
 }
 a.home{ 
     font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
     padding-left: 90px;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     color: blueviolet;
 
@@ -45,10 +51,6 @@ a.home:hover{
     text-decoration: none;
     color: rgb(95, 0, 184);
 
-}
-img#logo{
-    position: absolute;
-    
 }
 
 div#home{
@@ -60,7 +62,7 @@ div#home{
     color: blueviolet;
     position: relative;
     padding-left: 150px;
-    
+    transform: translate(0px, -25px);
 }
 
 p.no{
@@ -83,6 +85,11 @@ h2#id{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: -39px ;
 
+}h3#td{
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    padding-top: 9px ;
+    padding-bottom: 40px; 
 }
 a#did{
     color: white;
@@ -105,25 +112,25 @@ a#did:hover{
     background-color: rgb(52, 236, 52);
 }
 
-h3#td{
-    font-size: 2.5em;
-    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
-    padding-top: 9px ;
-    padding-bottom: 40px;
-    
-}
 img.logo{
     display: block;
 }
+img#img{
+    position: absolute;
+    margin-top: -84px;
+    margin-left: 248px;
+}
+
+    
 
 
 /*IndexII*/
 
 body{
-    background-color: white;
+    background-color: rgba(107, 48, 166, 0);
+    
 }
 div#purple{
-
     width: 683px;
     height: 644px;
     text-align: center;
@@ -142,4 +149,12 @@ div#white{
     color: #9603b9;
     margin: auto;
 }
+img#ol{
+    display: block;
+    background-attachment: fixed;
+    background-position: left center;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
     
