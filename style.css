@@ -20,7 +20,7 @@ header{
     padding: 15px;
     margin: 10px;
 }
-main{
+main#home{
     width: auto;
     height: 10px;
     
@@ -62,7 +62,20 @@ div#home{
     color: blueviolet;
 
     padding-left: 150px;
-    transform: translate(0px, -565px);
+    position: fixed;
+}
+@media(max-width:600px){
+    div#home{
+        width: 450px;
+        height: 225px;
+        padding: 43px;
+        margin: 0px;
+        margin-bottom: 100px;
+        color: blueviolet;
+        
+        padding-left: 150px;
+        position: fixed;
+    }
 }
 
 p.no{
@@ -120,7 +133,9 @@ img#img{
     margin-top: -82px;
     margin-left: 230px;
 }
-
+picture#home{
+    position: fixed;
+}
     
 
 
