@@ -45,6 +45,8 @@ nav#inicio{
         margin: auto;
         transform: translate(141px 0px);
         text-align: end;
+        text-align: left;
+        font-size: 1.5em;
     }
 }
 div#nav{
