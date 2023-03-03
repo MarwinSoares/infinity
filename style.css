@@ -15,10 +15,17 @@ body#one{
     width: auto;
     height: 10px;
 }
-header{
+header#home{
     background-color: rgba(255, 255, 255, 0);
     padding: 15px;
     margin: 10px;
+}
+@media(max-width:600px){
+    header#home{
+        background-color: rgba(255, 255, 255, 0);
+        padding: 15px;
+        margin: 10px;
+}
 }
 main#home{
     width: auto;
@@ -31,6 +38,14 @@ nav#inicio{
     transform: translate(-141px, 0px);
     text-align: end;
 
+}
+@media(max-width:600px){
+    nav#inicio{
+        background-color: rgba(255, 255, 255, 0);
+        margin: auto;
+        transform: translate(141px 0px);
+        text-align: end;
+    }
 }
 div#nav{
     width: 1012px;
