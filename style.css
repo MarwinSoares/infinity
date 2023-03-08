@@ -32,12 +32,34 @@ main#home{
     height: 10px;
     
 }
-nav#inicio{
+menu#inicio{
     background-color: rgba(255, 255, 255, 0);
     margin: auto;
     transform: translate(-141px, 0px);
     text-align: end;
 
+}
+@media(max-width:600px){
+menu#inicio{
+    display: none;
+}
+
+}
+#burguer{
+    color: #9603b9;
+    
+}
+#burguer:hover{
+    color: #c555e0;
+}
+@media(min-width:600px){
+    #burguer{
+        color: transparent;
+        
+    }
+    #burguer:hover{
+        color: transparent;
+    }
 }
 @media(max-width:600px){
     nav#inicio{
@@ -153,7 +175,9 @@ img#img{
 picture#home{
     position: fixed;
 }
-    
+#menu{
+
+}    
 
 
 /*IndexII*/

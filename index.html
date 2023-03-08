@@ -20,13 +20,13 @@
         
             <img class="logo" src="logoClubeInfinityNovoAlta.png" alt="logoClubeInfinityNovoAlta">
             <div id="nav">
-                <span id="menu" class="material-icons">menu</span>
-                <nav id="inicio">
+                <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+                <menu id="inicio">
                     <a class="home" href="#">Quem Somos</a>
                     <a class="home" href="#">Nossos Produtos</a>
                     <a class="home" href="#">Nossos Parceiros</a>
                     <a class="home" href="#">Sejam um Afiliado</a>
-                </nav>
+                </menu>
             </div>
         </header>
         
@@ -53,7 +53,12 @@
                  </main>
             
             
-            
+            <script>
+                function clickMenu(){
+                    inicio.style.display = 'block'
+                    
+                }
+            </script>
             
         
 
