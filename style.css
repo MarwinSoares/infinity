@@ -45,6 +45,20 @@ menu#inicio{
 }
 
 }
+li.home{
+    text-align: justify;
+    list-style: none;
+    display: contents;
+}
+@media(max-width:600px){
+    li.home{
+    text-align: justify;
+    list-style: none;
+    padding: 10px;
+    display: block;
+    }
+
+}
 #burguer{
     color: #9603b9;
     
@@ -55,6 +69,7 @@ menu#inicio{
 @media(min-width:600px){
     #burguer{
         color: transparent;
+
         
     }
     #burguer:hover{
@@ -76,6 +91,13 @@ div#nav{
     height: auto;
    
     transform: translate(192px, -60px);
+}
+@media(max-width:600px){
+    div#nav{
+        width: 280px;
+        height: auto;
+    }
+
 }
 a.home{ 
     font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
