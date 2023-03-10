@@ -57,7 +57,11 @@
             
             <script>
                 function clickMenu(){
-                    inicio.style.display = 'block'
+                    if (inicio.style.display == 'block') {
+                        inicio.style.display = 'none'
+                    } else {
+                        inicio.style.display = 'block'
+                    }
                     
                 }
             </script>
