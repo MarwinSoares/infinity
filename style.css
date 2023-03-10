@@ -20,13 +20,7 @@ header#home{
     padding: 15px;
     margin: 10px;
 }
-@media(max-width:600px){
-    header#home{
-        background-color: rgba(255, 255, 255, 0);
-        padding: 15px;
-        margin: 10px;
-}
-}
+
 main#home{
     width: auto;
     height: 10px;
@@ -39,26 +33,16 @@ menu#inicio{
     text-align: end;
 
 }
-@media(max-width:600px){
-menu#inicio{
-    display: none;
-}
 
-}
+
+
+
 li.home{
     text-align: justify;
     list-style: none;
     display: contents;
 }
-@media(max-width:600px){
-    li.home{
-    text-align: justify;
-    list-style: none;
-    padding: 10px;
-    display: block;
-    }
 
-}
 #burguer{
     color: #9603b9;
     
@@ -85,6 +69,74 @@ li.home{
         text-align: left;
         font-size: 1.5em;
     }
+    div#nav{
+        width: 280px;
+        height: auto;
+    }
+    div#home{
+        width: 450px;
+        height: 225px;
+        padding: 43px;
+        margin: 0px;
+        margin-bottom: 100px;
+        color: blueviolet;
+        
+        padding-left: 150px;
+        position: fixed;
+    }
+    li.home{
+        text-align: justify;
+        list-style: none;
+        padding: 10px;
+        display: block;
+        }
+        menu#inicio{
+            display: none;
+        }
+        header#home{
+            background-color: rgba(255, 255, 255, 0);
+            padding: 15px;
+            margin: 10px;
+    }
+}
+@media(max-width:320px){
+    nav#inicio{
+        background-color: rgba(255, 255, 255, 0);
+        margin: auto;
+        transform: translate(141px 0px);
+        text-align: end;
+        text-align: left;
+        font-size: 1.5em;
+    }
+    div#nav{
+        width: 275px;
+        height: auto;
+    }
+    div#home{
+        width: 450px;
+        height: 225px;
+        padding: 43px;
+        margin: 0px;
+        margin-bottom: 100px;
+        color: blueviolet;
+        
+        padding-left: 150px;
+        position: fixed;
+    }
+    li.home{
+        text-align: justify;
+        list-style: none;
+        padding: 10px;
+        display: block;
+        }
+        menu#inicio{
+            display: none;
+        }
+        header#home{
+            background-color: rgba(255, 255, 255, 0);
+            padding: 15px;
+            margin: 10px;
+    }
 }
 div#nav{
     width: 1012px;
@@ -92,13 +144,10 @@ div#nav{
    
     transform: translate(192px, -60px);
 }
-@media(max-width:600px){
-    div#nav{
-        width: 280px;
-        height: auto;
-    }
 
-}
+    
+
+
 a.home{ 
     font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
     padding-left: 90px;
@@ -125,19 +174,7 @@ div#home{
     padding-left: 150px;
     position: fixed;
 }
-@media(max-width:600px){
-    div#home{
-        width: 450px;
-        height: 225px;
-        padding: 43px;
-        margin: 0px;
-        margin-bottom: 100px;
-        color: blueviolet;
-        
-        padding-left: 150px;
-        position: fixed;
-    }
-}
+
 
 p.no{
     color: rgb(100, 99, 99);
